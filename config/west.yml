@@ -8,6 +8,8 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: petejohanson
       url-base: https://github.com/petejohanson
+    - name: m165437
+      url-base: https://github.com/M165437
   projects:
     - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne
@@ -16,5 +18,8 @@ manifest:
       remote: petejohanson
       revision: feat/pointers-with-input-processors
       import: app/west.yml
+    - name: nice-view-gem
+      remote: m165437
+      revision: main
   self:
     path: config
